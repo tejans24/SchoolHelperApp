@@ -5,3 +5,11 @@ SchoolHelperApp
 * Helps manage homeworks and tasks for school work. 
 * Works for IOS 7. 
 * Requires Tapku library: https://github.com/devinross/tapkulibrary
+
+
+Issues
+========
+
+* Lack of comments
+* Lack of structure
+* No DB
