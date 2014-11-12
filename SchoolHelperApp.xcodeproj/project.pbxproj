@@ -1,0 +1,903 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0924783912B1A0D00074EAE2 /* CourseDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0924783712B1A0D00074EAE2 /* CourseDetailViewController.xib */; };
+		0924789312B1CBEE0074EAE2 /* courseBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0924789212B1CBEE0074EAE2 /* courseBackground.jpg */; };
+		0968BFE912B400D500BF36CD /* DueDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0968BFE712B400D500BF36CD /* DueDatePickerView.m */; };
+		0968BFEA12B400D500BF36CD /* DueDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0968BFE812B400D500BF36CD /* DueDatePickerView.xib */; };
+		0968C14412B4811100BF36CD /* background3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0968C14312B4811100BF36CD /* background3.jpg */; };
+		0968C25812B4971A00BF36CD /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0968C25712B4971A00BF36CD /* button.png */; };
+		0968C29312B49A5400BF36CD /* button2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0968C29212B49A5400BF36CD /* button2.png */; };
+		0968C39F12B4C88200BF36CD /* About.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0968C39E12B4C88200BF36CD /* About.jpg */; };
+		0992A2A112A82E2E0043E1CC /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0992A29F12A82E2E0043E1CC /* AboutViewController.m */; };
+		0992A2A212A82E2E0043E1CC /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0992A2A012A82E2E0043E1CC /* AboutViewController.xib */; };
+		0992A2BB12A82FF90043E1CC /* courseNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0992A2BA12A82FF90043E1CC /* courseNavController.m */; };
+		0992A2EE12A833E50043E1CC /* courseTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0992A2ED12A833E50043E1CC /* courseTableViewController.xib */; };
+		0992A3DA12A8488A0043E1CC /* AddCourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0992A3D812A8488A0043E1CC /* AddCourseViewController.m */; };
+		0992A3DB12A8488A0043E1CC /* AddCourseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0992A3D912A8488A0043E1CC /* AddCourseViewController.xib */; };
+		0992A55712A878EC0043E1CC /* PickDateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0992A55512A878EC0043E1CC /* PickDateViewController.m */; };
+		0992A55812A878EC0043E1CC /* PickDateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0992A55612A878EC0043E1CC /* PickDateViewController.xib */; };
+		0992A6C712A8982E0043E1CC /* HomeworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0992A6C512A8982E0043E1CC /* HomeworkViewController.m */; };
+		0992A6C812A8982E0043E1CC /* HomeworkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0992A6C612A8982E0043E1CC /* HomeworkViewController.xib */; };
+		0992A6F012A8A0160043E1CC /* TaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0992A6EE12A8A0160043E1CC /* TaskViewController.m */; };
+		0992A6F112A8A0160043E1CC /* TaskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0992A6EF12A8A0160043E1CC /* TaskViewController.xib */; };
+		0996CD1212AAD232001EFB42 /* CheckGradesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0996CD1012AAD232001EFB42 /* CheckGradesViewController.m */; };
+		0996CD1312AAD232001EFB42 /* CheckGradesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0996CD1112AAD232001EFB42 /* CheckGradesViewController.xib */; };
+		099DBCC412ADD72900C681D4 /* taskBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 099DBCC312ADD72900C681D4 /* taskBackground.jpg */; };
+		09FBBAE412B5A87E008B597D /* buttonPress2.png in Resources */ = {isa = PBXBuildFile; fileRef = 09FBBAE312B5A87E008B597D /* buttonPress2.png */; };
+		09FBBAF112B5AB09008B597D /* buttonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 09FBBAF012B5AB09008B597D /* buttonPressed.png */; };
+		09FBBAF312B5AB42008B597D /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09FBBAF212B5AB42008B597D /* background.jpg */; };
+		09FBBB2A12B5C614008B597D /* tableBackground2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09FBBB2912B5C614008B597D /* tableBackground2.jpg */; };
+		1D3623260D0F684500981E51 /* FinalProjectAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* FinalProjectAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28193060112F816700ECF9B4 /* FinalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2819305F112F816700ECF9B4 /* FinalProject.xcdatamodeld */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D801B30F44B63D00FB423F /* CoreData.framework */; };
+		B71073EA12B6F74800B2AFF4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B71073E912B6F74800B2AFF4 /* QuartzCore.framework */; };
+		B71073EE12B6F75300B2AFF4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B71073ED12B6F75300B2AFF4 /* MapKit.framework */; };
+		B710747012B6F8E500B2AFF4 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B710746E12B6F8E500B2AFF4 /* CalendarViewController.m */; };
+		B710747112B6F8E500B2AFF4 /* CalendarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B710746F12B6F8E500B2AFF4 /* CalendarViewController.xib */; };
+		B717D4A612B71D1E00FDBD53 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = B717D4A512B71D1E00FDBD53 /* default.png */; };
+		B717D4BE12B7205700FDBD53 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = B717D4BD12B7205700FDBD53 /* Task.m */; };
+		B717D4D212B7219000FDBD53 /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = B717D4D112B7219000FDBD53 /* Course.m */; };
+		B717D4F912B722DD00FDBD53 /* courseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B717D4F812B722DD00FDBD53 /* courseTableViewController.m */; };
+		B717D5F912B72B6500FDBD53 /* folder.png in Resources */ = {isa = PBXBuildFile; fileRef = B717D5F812B72B6500FDBD53 /* folder.png */; };
+		B717D64512B7527B00FDBD53 /* LabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B717D64412B7527B00FDBD53 /* LabelViewController.m */; };
+		B717D7B012B777D300FDBD53 /* tgumbsup.png in Resources */ = {isa = PBXBuildFile; fileRef = B717D7AF12B777D300FDBD53 /* tgumbsup.png */; };
+		B717D7B712B7791800FDBD53 /* thumbsup.png in Resources */ = {isa = PBXBuildFile; fileRef = B717D7B612B7791800FDBD53 /* thumbsup.png */; };
+		B717D85D12B7EC6000FDBD53 /* cal_tabicon.png in Resources */ = {isa = PBXBuildFile; fileRef = B717D85C12B7EC6000FDBD53 /* cal_tabicon.png */; };
+		B717D86312B7EEA300FDBD53 /* info_30.png in Resources */ = {isa = PBXBuildFile; fileRef = B717D86112B7EEA300FDBD53 /* info_30.png */; };
+		B717D95C12B7EF9200FDBD53 /* 33-cabinet.png in Resources */ = {isa = PBXBuildFile; fileRef = B717D95912B7EF9200FDBD53 /* 33-cabinet.png */; };
+		B717D95D12B7EF9200FDBD53 /* 83-calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = B717D95A12B7EF9200FDBD53 /* 83-calendar.png */; };
+		B717D95E12B7EF9200FDBD53 /* 161-calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = B717D95B12B7EF9200FDBD53 /* 161-calculator.png */; };
+		B717DA6912B8346A00FDBD53 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B717DA6812B8346A00FDBD53 /* icon.png */; };
+		DEE4D73F184C071A009B388C /* TapkuLibrary.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DEE4D73B184C0719009B388C /* TapkuLibrary.bundle */; };
+		DEE4D749184C0975009B388C /* libTapkuLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE4D743184C071A009B388C /* libTapkuLibrary.a */; };
+		DEE4D74B184C0A34009B388C /* Screen Shot 2013-12-01 at 7.21.36 PM.png in Frameworks */ = {isa = PBXBuildFile; fileRef = DEE4D74A184C0A34009B388C /* Screen Shot 2013-12-01 at 7.21.36 PM.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE916B0617ADED9E00360413 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE916AF717ADED9E00360413 /* TapkuLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = TapkuLibrary;
+		};
+		DE916B0817ADED9E00360413 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE916AF717ADED9E00360413 /* TapkuLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3B45DDF1134C736600D24C1A;
+			remoteInfo = LogicTests;
+		};
+		DEE4D742184C071A009B388C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEE4D73C184C0719009B388C /* TapkuLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = TapkuLibrary;
+		};
+		DEE4D744184C071A009B388C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEE4D73C184C0719009B388C /* TapkuLibrary.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3B45DDF1134C736600D24C1A;
+			remoteInfo = LogicTests;
+		};
+		DEE4D746184C0799009B388C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEE4D73C184C0719009B388C /* TapkuLibrary.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = TapkuLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0924783712B1A0D00074EAE2 /* CourseDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseDetailViewController.xib; sourceTree = "<group>"; };
+		0924789212B1CBEE0074EAE2 /* courseBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = courseBackground.jpg; sourceTree = "<group>"; };
+		0968BFE612B400D500BF36CD /* DueDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DueDatePickerView.h; sourceTree = "<group>"; };
+		0968BFE712B400D500BF36CD /* DueDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DueDatePickerView.m; sourceTree = "<group>"; };
+		0968BFE812B400D500BF36CD /* DueDatePickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DueDatePickerView.xib; sourceTree = "<group>"; };
+		0968C14312B4811100BF36CD /* background3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background3.jpg; sourceTree = "<group>"; };
+		0968C25712B4971A00BF36CD /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		0968C29212B49A5400BF36CD /* button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button2.png; sourceTree = "<group>"; };
+		0968C39E12B4C88200BF36CD /* About.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = About.jpg; sourceTree = "<group>"; };
+		0992A29E12A82E2E0043E1CC /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = Classes/AboutViewController.h; sourceTree = "<group>"; };
+		0992A29F12A82E2E0043E1CC /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = Classes/AboutViewController.m; sourceTree = "<group>"; };
+		0992A2A012A82E2E0043E1CC /* AboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AboutViewController.xib; path = Classes/AboutViewController.xib; sourceTree = "<group>"; };
+		0992A2B912A82FF90043E1CC /* courseNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = courseNavController.h; path = Classes/courseNavController.h; sourceTree = "<group>"; };
+		0992A2BA12A82FF90043E1CC /* courseNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = courseNavController.m; path = Classes/courseNavController.m; sourceTree = "<group>"; };
+		0992A2ED12A833E50043E1CC /* courseTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = courseTableViewController.xib; sourceTree = "<group>"; };
+		0992A3D712A8488A0043E1CC /* AddCourseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddCourseViewController.h; path = Classes/AddCourseViewController.h; sourceTree = "<group>"; };
+		0992A3D812A8488A0043E1CC /* AddCourseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddCourseViewController.m; path = Classes/AddCourseViewController.m; sourceTree = "<group>"; };
+		0992A3D912A8488A0043E1CC /* AddCourseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AddCourseViewController.xib; path = Classes/AddCourseViewController.xib; sourceTree = "<group>"; };
+		0992A55412A878EC0043E1CC /* PickDateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PickDateViewController.h; path = Classes/PickDateViewController.h; sourceTree = "<group>"; };
+		0992A55512A878EC0043E1CC /* PickDateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PickDateViewController.m; path = Classes/PickDateViewController.m; sourceTree = "<group>"; };
+		0992A55612A878EC0043E1CC /* PickDateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PickDateViewController.xib; path = Classes/PickDateViewController.xib; sourceTree = "<group>"; };
+		0992A6C412A8982E0043E1CC /* HomeworkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeworkViewController.h; path = Classes/HomeworkViewController.h; sourceTree = "<group>"; };
+		0992A6C512A8982E0043E1CC /* HomeworkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeworkViewController.m; path = Classes/HomeworkViewController.m; sourceTree = "<group>"; };
+		0992A6C612A8982E0043E1CC /* HomeworkViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HomeworkViewController.xib; path = Classes/HomeworkViewController.xib; sourceTree = "<group>"; };
+		0992A6ED12A8A0160043E1CC /* TaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TaskViewController.h; path = Classes/TaskViewController.h; sourceTree = "<group>"; };
+		0992A6EE12A8A0160043E1CC /* TaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TaskViewController.m; path = Classes/TaskViewController.m; sourceTree = "<group>"; };
+		0992A6EF12A8A0160043E1CC /* TaskViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TaskViewController.xib; path = Classes/TaskViewController.xib; sourceTree = "<group>"; };
+		0996CD0F12AAD232001EFB42 /* CheckGradesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckGradesViewController.h; sourceTree = "<group>"; };
+		0996CD1012AAD232001EFB42 /* CheckGradesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckGradesViewController.m; sourceTree = "<group>"; };
+		0996CD1112AAD232001EFB42 /* CheckGradesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckGradesViewController.xib; sourceTree = "<group>"; };
+		099DBCC312ADD72900C681D4 /* taskBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taskBackground.jpg; sourceTree = "<group>"; };
+		09FBBAE312B5A87E008B597D /* buttonPress2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonPress2.png; sourceTree = "<group>"; };
+		09FBBAF012B5AB09008B597D /* buttonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonPressed.png; sourceTree = "<group>"; };
+		09FBBAF212B5AB42008B597D /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		09FBBB2912B5C614008B597D /* tableBackground2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tableBackground2.jpg; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* FinalProjectAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalProjectAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* FinalProjectAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalProjectAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* SchoolHelperApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolHelperApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C3AD890F43EF2300507BA6 /* FinalProject.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = FinalProject.xcdatamodel; sourceTree = "<group>"; };
+		28D801B30F44B63D00FB423F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* SchoolHelperApp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolHelperApp_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* SchoolHelperApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SchoolHelperApp-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B71073D812B6F72400B2AFF4 /* TapkuLibrary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TapkuLibrary.xcodeproj; path = src/TapkuLibrary.xcodeproj; sourceTree = SOURCE_ROOT; };
+		B71073E912B6F74800B2AFF4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B71073ED12B6F75300B2AFF4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B710746D12B6F8E500B2AFF4 /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = SOURCE_ROOT; };
+		B710746E12B6F8E500B2AFF4 /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = SOURCE_ROOT; };
+		B710746F12B6F8E500B2AFF4 /* CalendarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarViewController.xib; sourceTree = "<group>"; };
+		B717D4A512B71D1E00FDBD53 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		B717D4BC12B7204D00FDBD53 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		B717D4BD12B7205700FDBD53 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		B717D4D012B7219000FDBD53 /* Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
+		B717D4D112B7219000FDBD53 /* Course.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
+		B717D4D612B7224300FDBD53 /* courseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = courseTableViewController.h; path = Classes/courseTableViewController.h; sourceTree = "<group>"; };
+		B717D4F812B722DD00FDBD53 /* courseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = courseTableViewController.m; path = Classes/courseTableViewController.m; sourceTree = "<group>"; };
+		B717D5F812B72B6500FDBD53 /* folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = folder.png; sourceTree = "<group>"; };
+		B717D64312B7527B00FDBD53 /* LabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LabelViewController.h; path = Classes/LabelViewController.h; sourceTree = SOURCE_ROOT; };
+		B717D64412B7527B00FDBD53 /* LabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LabelViewController.m; path = Classes/LabelViewController.m; sourceTree = SOURCE_ROOT; };
+		B717D7AF12B777D300FDBD53 /* tgumbsup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tgumbsup.png; sourceTree = SOURCE_ROOT; };
+		B717D7B612B7791800FDBD53 /* thumbsup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbsup.png; sourceTree = SOURCE_ROOT; };
+		B717D85C12B7EC6000FDBD53 /* cal_tabicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cal_tabicon.png; sourceTree = "<group>"; };
+		B717D86112B7EEA300FDBD53 /* info_30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_30.png; sourceTree = "<group>"; };
+		B717D95912B7EF9200FDBD53 /* 33-cabinet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "33-cabinet.png"; path = "Classes/33-cabinet.png"; sourceTree = "<group>"; };
+		B717D95A12B7EF9200FDBD53 /* 83-calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "83-calendar.png"; path = "Classes/83-calendar.png"; sourceTree = "<group>"; };
+		B717D95B12B7EF9200FDBD53 /* 161-calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "161-calculator.png"; path = "Classes/161-calculator.png"; sourceTree = "<group>"; };
+		B717DA6812B8346A00FDBD53 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		DE916A8317ADED4B00360413 /* TapkuLibrary.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TapkuLibrary.bundle; path = "../../../Downloads/tapkulibrary-master/src/TapkuLibrary.bundle"; sourceTree = "<group>"; };
+		DE916A8717ADED9E00360413 /* DataTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataTests.h; sourceTree = "<group>"; };
+		DE916A8817ADED9E00360413 /* DataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataTests.m; sourceTree = "<group>"; };
+		DE916A8917ADED9E00360413 /* LogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LogicTests-Info.plist"; sourceTree = "<group>"; };
+		DE916A8B17ADED9E00360413 /* NSArray+TKCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+TKCategory.h"; sourceTree = "<group>"; };
+		DE916A8C17ADED9E00360413 /* NSArray+TKCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+TKCategory.m"; sourceTree = "<group>"; };
+		DE916A8D17ADED9E00360413 /* NSDate+CalendarGrid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+CalendarGrid.h"; sourceTree = "<group>"; };
+		DE916A8E17ADED9E00360413 /* NSDate+CalendarGrid.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CalendarGrid.m"; sourceTree = "<group>"; };
+		DE916A8F17ADED9E00360413 /* NSDate+TKCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+TKCategory.h"; sourceTree = "<group>"; };
+		DE916A9017ADED9E00360413 /* NSDate+TKCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TKCategory.m"; sourceTree = "<group>"; };
+		DE916A9117ADED9E00360413 /* NSMutableArray+TKCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+TKCategory.h"; sourceTree = "<group>"; };
+		DE916A9217ADED9E00360413 /* NSMutableArray+TKCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+TKCategory.m"; sourceTree = "<group>"; };
+		DE916A9317ADED9E00360413 /* NSObject+TKCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+TKCategory.h"; sourceTree = "<group>"; };
+		DE916A9417ADED9E00360413 /* NSObject+TKCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TKCategory.m"; sourceTree = "<group>"; };
+		DE916A9517ADED9E00360413 /* NSString+TKCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+TKCategory.h"; sourceTree = "<group>"; };
+		DE916A9617ADED9E00360413 /* NSString+TKCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+TKCategory.m"; sourceTree = "<group>"; };
+		DE916A9717ADED9E00360413 /* TapkuLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapkuLibrary.h; sourceTree = "<group>"; };
+		DE916A9817ADED9E00360413 /* TKAlertCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKAlertCenter.h; sourceTree = "<group>"; };
+		DE916A9917ADED9E00360413 /* TKAlertCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKAlertCenter.m; sourceTree = "<group>"; };
+		DE916A9A17ADED9E00360413 /* TKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKAppDelegate.h; sourceTree = "<group>"; };
+		DE916A9B17ADED9E00360413 /* TKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKAppDelegate.m; sourceTree = "<group>"; };
+		DE916A9C17ADED9E00360413 /* TKButtonCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKButtonCell.h; sourceTree = "<group>"; };
+		DE916A9D17ADED9E00360413 /* TKButtonCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKButtonCell.m; sourceTree = "<group>"; };
+		DE916A9E17ADED9E00360413 /* TKCalendarDayEventView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKCalendarDayEventView.h; sourceTree = "<group>"; };
+		DE916A9F17ADED9E00360413 /* TKCalendarDayEventView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKCalendarDayEventView.m; sourceTree = "<group>"; };
+		DE916AA017ADED9E00360413 /* TKCalendarDayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKCalendarDayView.h; sourceTree = "<group>"; };
+		DE916AA117ADED9E00360413 /* TKCalendarDayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKCalendarDayView.m; sourceTree = "<group>"; };
+		DE916AA217ADED9E00360413 /* TKCalendarDayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKCalendarDayViewController.h; sourceTree = "<group>"; };
+		DE916AA317ADED9E00360413 /* TKCalendarDayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKCalendarDayViewController.m; sourceTree = "<group>"; };
+		DE916AA417ADED9E00360413 /* TKCalendarMonthTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKCalendarMonthTableViewController.h; sourceTree = "<group>"; };
+		DE916AA517ADED9E00360413 /* TKCalendarMonthTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKCalendarMonthTableViewController.m; sourceTree = "<group>"; };
+		DE916AA617ADED9E00360413 /* TKCalendarMonthView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKCalendarMonthView.h; sourceTree = "<group>"; };
+		DE916AA717ADED9E00360413 /* TKCalendarMonthView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKCalendarMonthView.m; sourceTree = "<group>"; };
+		DE916AA817ADED9E00360413 /* TKCalendarMonthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKCalendarMonthViewController.h; sourceTree = "<group>"; };
+		DE916AA917ADED9E00360413 /* TKCalendarMonthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKCalendarMonthViewController.m; sourceTree = "<group>"; };
+		DE916AAA17ADED9E00360413 /* TKCoverflowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKCoverflowView.h; sourceTree = "<group>"; };
+		DE916AAB17ADED9E00360413 /* TKCoverflowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKCoverflowView.m; sourceTree = "<group>"; };
+		DE916AAC17ADED9E00360413 /* TKEmptyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKEmptyView.h; sourceTree = "<group>"; };
+		DE916AAD17ADED9E00360413 /* TKEmptyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKEmptyView.m; sourceTree = "<group>"; };
+		DE916AAE17ADED9E00360413 /* TKGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKGlobal.h; sourceTree = "<group>"; };
+		DE916AAF17ADED9E00360413 /* TKGlobal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKGlobal.m; sourceTree = "<group>"; };
+		DE916AB017ADED9E00360413 /* TKGradientView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKGradientView.h; sourceTree = "<group>"; };
+		DE916AB117ADED9E00360413 /* TKGradientView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKGradientView.m; sourceTree = "<group>"; };
+		DE916AB217ADED9E00360413 /* TKHTTPRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKHTTPRequest.h; sourceTree = "<group>"; };
+		DE916AB317ADED9E00360413 /* TKHTTPRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKHTTPRequest.m; sourceTree = "<group>"; };
+		DE916AB417ADED9E00360413 /* TKImageCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKImageCache.h; sourceTree = "<group>"; };
+		DE916AB517ADED9E00360413 /* TKImageCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKImageCache.m; sourceTree = "<group>"; };
+		DE916AB617ADED9E00360413 /* TKLabelCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKLabelCell.h; sourceTree = "<group>"; };
+		DE916AB717ADED9E00360413 /* TKLabelCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKLabelCell.m; sourceTree = "<group>"; };
+		DE916AB817ADED9E00360413 /* TKLabelFieldCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKLabelFieldCell.h; sourceTree = "<group>"; };
+		DE916AB917ADED9E00360413 /* TKLabelFieldCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKLabelFieldCell.m; sourceTree = "<group>"; };
+		DE916ABA17ADED9E00360413 /* TKLabelSwitchCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKLabelSwitchCell.h; sourceTree = "<group>"; };
+		DE916ABB17ADED9E00360413 /* TKLabelSwitchCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKLabelSwitchCell.m; sourceTree = "<group>"; };
+		DE916ABC17ADED9E00360413 /* TKLabelTextFieldCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKLabelTextFieldCell.h; sourceTree = "<group>"; };
+		DE916ABD17ADED9E00360413 /* TKLabelTextFieldCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKLabelTextFieldCell.m; sourceTree = "<group>"; };
+		DE916ABE17ADED9E00360413 /* TKLabelTextViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKLabelTextViewCell.h; sourceTree = "<group>"; };
+		DE916ABF17ADED9E00360413 /* TKLabelTextViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKLabelTextViewCell.m; sourceTree = "<group>"; };
+		DE916AC017ADED9E00360413 /* TKLoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKLoadingView.h; sourceTree = "<group>"; };
+		DE916AC117ADED9E00360413 /* TKLoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKLoadingView.m; sourceTree = "<group>"; };
+		DE916AC217ADED9E00360413 /* TKNetworkQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKNetworkQueue.h; sourceTree = "<group>"; };
+		DE916AC317ADED9E00360413 /* TKNetworkQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKNetworkQueue.m; sourceTree = "<group>"; };
+		DE916AC417ADED9E00360413 /* TKProgressAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKProgressAlertView.h; sourceTree = "<group>"; };
+		DE916AC517ADED9E00360413 /* TKProgressAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKProgressAlertView.m; sourceTree = "<group>"; };
+		DE916AC617ADED9E00360413 /* TKProgressBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKProgressBarView.h; sourceTree = "<group>"; };
+		DE916AC717ADED9E00360413 /* TKProgressBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKProgressBarView.m; sourceTree = "<group>"; };
+		DE916AC817ADED9E00360413 /* TKProgressCircleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKProgressCircleView.h; sourceTree = "<group>"; };
+		DE916AC917ADED9E00360413 /* TKProgressCircleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKProgressCircleView.m; sourceTree = "<group>"; };
+		DE916ACA17ADED9E00360413 /* TKReorderTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKReorderTableView.h; sourceTree = "<group>"; };
+		DE916ACB17ADED9E00360413 /* TKReorderTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKReorderTableView.m; sourceTree = "<group>"; };
+		DE916ACC17ADED9E00360413 /* TKShapeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKShapeView.h; sourceTree = "<group>"; };
+		DE916ACD17ADED9E00360413 /* TKShapeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKShapeView.m; sourceTree = "<group>"; };
+		DE916ACE17ADED9E00360413 /* TKSlideToUnlockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKSlideToUnlockView.h; sourceTree = "<group>"; };
+		DE916ACF17ADED9E00360413 /* TKSlideToUnlockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKSlideToUnlockView.m; sourceTree = "<group>"; };
+		DE916AD017ADED9E00360413 /* TKSwitchCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKSwitchCell.h; sourceTree = "<group>"; };
+		DE916AD117ADED9E00360413 /* TKSwitchCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKSwitchCell.m; sourceTree = "<group>"; };
+		DE916AD217ADED9E00360413 /* TKTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKTableViewCell.h; sourceTree = "<group>"; };
+		DE916AD317ADED9E00360413 /* TKTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKTableViewCell.m; sourceTree = "<group>"; };
+		DE916AD417ADED9E00360413 /* TKTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKTableViewController.h; sourceTree = "<group>"; };
+		DE916AD517ADED9E00360413 /* TKTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKTableViewController.m; sourceTree = "<group>"; };
+		DE916AD617ADED9E00360413 /* TKTextFieldCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKTextFieldCell.h; sourceTree = "<group>"; };
+		DE916AD717ADED9E00360413 /* TKTextFieldCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKTextFieldCell.m; sourceTree = "<group>"; };
+		DE916AD817ADED9E00360413 /* TKTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKTextView.h; sourceTree = "<group>"; };
+		DE916AD917ADED9E00360413 /* TKTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKTextView.m; sourceTree = "<group>"; };
+		DE916ADA17ADED9E00360413 /* TKTextViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKTextViewCell.h; sourceTree = "<group>"; };
+		DE916ADB17ADED9E00360413 /* TKTextViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKTextViewCell.m; sourceTree = "<group>"; };
+		DE916ADC17ADED9E00360413 /* TKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKViewController.h; sourceTree = "<group>"; };
+		DE916ADD17ADED9E00360413 /* TKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKViewController.m; sourceTree = "<group>"; };
+		DE916ADE17ADED9E00360413 /* TKWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKWebViewController.h; sourceTree = "<group>"; };
+		DE916ADF17ADED9E00360413 /* TKWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKWebViewController.m; sourceTree = "<group>"; };
+		DE916AE017ADED9E00360413 /* TKWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKWindow.h; sourceTree = "<group>"; };
+		DE916AE117ADED9E00360413 /* TKWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKWindow.m; sourceTree = "<group>"; };
+		DE916AE217ADED9E00360413 /* UIBarButtonItem+TKCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+TKCategory.h"; sourceTree = "<group>"; };
+		DE916AE317ADED9E00360413 /* UIBarButtonItem+TKCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+TKCategory.m"; sourceTree = "<group>"; };
+		DE916AE417ADED9E00360413 /* UIButton+TKCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+TKCategory.h"; sourceTree = "<group>"; };
+		DE916AE517ADED9E00360413 /* UIButton+TKCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TKCategory.m"; sourceTree = "<group>"; };
+		DE916AE617ADED9E00360413 /* UIColor+TKCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+TKCategory.h"; sourceTree = "<group>"; };
+		DE916AE717ADED9E00360413 /* UIColor+TKCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TKCategory.m"; sourceTree = "<group>"; };
+		DE916AE817ADED9E00360413 /* UIGestureRecognizer+TKCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+TKCategory.h"; sourceTree = "<group>"; };
+		DE916AE917ADED9E00360413 /* UIGestureRecognizer+TKCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+TKCategory.m"; sourceTree = "<group>"; };
+		DE916AEA17ADED9E00360413 /* UIImage+TKCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+TKCategory.h"; sourceTree = "<group>"; };
+		DE916AEB17ADED9E00360413 /* UIImage+TKCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TKCategory.m"; sourceTree = "<group>"; };
+		DE916AEC17ADED9E00360413 /* UIImagePickerController+TKCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImagePickerController+TKCategory.h"; sourceTree = "<group>"; };
+		DE916AED17ADED9E00360413 /* UIImagePickerController+TKCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImagePickerController+TKCategory.m"; sourceTree = "<group>"; };
+		DE916AEE17ADED9E00360413 /* UIImageView+TKCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+TKCategory.h"; sourceTree = "<group>"; };
+		DE916AEF17ADED9E00360413 /* UIImageView+TKCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+TKCategory.m"; sourceTree = "<group>"; };
+		DE916AF017ADED9E00360413 /* UIScrollview+TKCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollview+TKCategory.h"; sourceTree = "<group>"; };
+		DE916AF117ADED9E00360413 /* UIScrollview+TKCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollview+TKCategory.m"; sourceTree = "<group>"; };
+		DE916AF217ADED9E00360413 /* UITextField+TKCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+TKCategory.h"; sourceTree = "<group>"; };
+		DE916AF317ADED9E00360413 /* UITextField+TKCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+TKCategory.m"; sourceTree = "<group>"; };
+		DE916AF417ADED9E00360413 /* UIView+TKCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+TKCategory.h"; sourceTree = "<group>"; };
+		DE916AF517ADED9E00360413 /* UIView+TKCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TKCategory.m"; sourceTree = "<group>"; };
+		DE916AF617ADED9E00360413 /* TapkuLibrary.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TapkuLibrary.bundle; sourceTree = "<group>"; };
+		DE916AF717ADED9E00360413 /* TapkuLibrary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = TapkuLibrary.xcodeproj; sourceTree = "<group>"; };
+		DE916AFA17ADED9E00360413 /* TapkuLibrary_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapkuLibrary_Prefix.pch; sourceTree = "<group>"; };
+		DE916AFC17ADED9E00360413 /* FoundationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoundationTests.h; sourceTree = "<group>"; };
+		DE916AFD17ADED9E00360413 /* FoundationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoundationTests.m; sourceTree = "<group>"; };
+		DE916AFE17ADED9E00360413 /* NSArrayTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSArrayTests.h; sourceTree = "<group>"; };
+		DE916AFF17ADED9E00360413 /* NSArrayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSArrayTests.m; sourceTree = "<group>"; };
+		DE916B0017ADED9E00360413 /* NSStringTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSStringTests.h; sourceTree = "<group>"; };
+		DE916B0117ADED9E00360413 /* NSStringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSStringTests.m; sourceTree = "<group>"; };
+		DE916B0217ADED9E00360413 /* UIViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewTests.h; sourceTree = "<group>"; };
+		DE916B0317ADED9E00360413 /* UIViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewTests.m; sourceTree = "<group>"; };
+		DEE4D73B184C0719009B388C /* TapkuLibrary.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TapkuLibrary.bundle; path = ../tapkulibrary/src/TapkuLibrary.bundle; sourceTree = "<group>"; };
+		DEE4D73C184C0719009B388C /* TapkuLibrary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TapkuLibrary.xcodeproj; path = ../tapkulibrary/src/TapkuLibrary.xcodeproj; sourceTree = "<group>"; };
+		DEE4D74A184C0A34009B388C /* Screen Shot 2013-12-01 at 7.21.36 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2013-12-01 at 7.21.36 PM.png"; path = "../../../Desktop/Screen Shot 2013-12-01 at 7.21.36 PM.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE4D74B184C0A34009B388C /* Screen Shot 2013-12-01 at 7.21.36 PM.png in Frameworks */,
+				B71073EE12B6F75300B2AFF4 /* MapKit.framework in Frameworks */,
+				28D801B40F44B63D00FB423F /* CoreData.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				B71073EA12B6F74800B2AFF4 /* QuartzCore.framework in Frameworks */,
+				DEE4D749184C0975009B388C /* libTapkuLibrary.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Project Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B717D4D012B7219000FDBD53 /* Course.h */,
+				B717D4D112B7219000FDBD53 /* Course.m */,
+				B717D4BD12B7205700FDBD53 /* Task.m */,
+				B717D4BC12B7204D00FDBD53 /* Task.h */,
+				1D3623240D0F684500981E51 /* FinalProjectAppDelegate.h */,
+				1D3623250D0F684500981E51 /* FinalProjectAppDelegate.m */,
+			);
+			name = "Project Classes";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0996CCA012AACB65001EFB42 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B717D64312B7527B00FDBD53 /* LabelViewController.h */,
+				B717D64412B7527B00FDBD53 /* LabelViewController.m */,
+				B710746D12B6F8E500B2AFF4 /* CalendarViewController.h */,
+				B710746E12B6F8E500B2AFF4 /* CalendarViewController.m */,
+				0968BFE612B400D500BF36CD /* DueDatePickerView.h */,
+				0968BFE712B400D500BF36CD /* DueDatePickerView.m */,
+				0992A3D712A8488A0043E1CC /* AddCourseViewController.h */,
+				0992A3D812A8488A0043E1CC /* AddCourseViewController.m */,
+				B717D4D612B7224300FDBD53 /* courseTableViewController.h */,
+				B717D4F812B722DD00FDBD53 /* courseTableViewController.m */,
+				0992A6C412A8982E0043E1CC /* HomeworkViewController.h */,
+				0992A6C512A8982E0043E1CC /* HomeworkViewController.m */,
+				0992A6ED12A8A0160043E1CC /* TaskViewController.h */,
+				0992A6EE12A8A0160043E1CC /* TaskViewController.m */,
+				0996CD0F12AAD232001EFB42 /* CheckGradesViewController.h */,
+				0996CD1012AAD232001EFB42 /* CheckGradesViewController.m */,
+				0992A55412A878EC0043E1CC /* PickDateViewController.h */,
+				0992A55512A878EC0043E1CC /* PickDateViewController.m */,
+				0992A2B912A82FF90043E1CC /* courseNavController.h */,
+				0992A2BA12A82FF90043E1CC /* courseNavController.m */,
+				0992A29E12A82E2E0043E1CC /* AboutViewController.h */,
+				0992A29F12A82E2E0043E1CC /* AboutViewController.m */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* SchoolHelperApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				DEE4D73B184C0719009B388C /* TapkuLibrary.bundle */,
+				DEE4D73C184C0719009B388C /* TapkuLibrary.xcodeproj */,
+				DE916A8617ADED9E00360413 /* src */,
+				DE916A8317ADED4B00360413 /* TapkuLibrary.bundle */,
+				0996CCA012AACB65001EFB42 /* View Controller */,
+				080E96DDFE201D6D7F000001 /* Project Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				09FBBAE312B5A87E008B597D /* buttonPress2.png */,
+				32CA4F630368D1EE00C91783 /* SchoolHelperApp_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B717D95912B7EF9200FDBD53 /* 33-cabinet.png */,
+				B717D95A12B7EF9200FDBD53 /* 83-calendar.png */,
+				B717DA6812B8346A00FDBD53 /* icon.png */,
+				B717D95B12B7EF9200FDBD53 /* 161-calculator.png */,
+				B717D7AF12B777D300FDBD53 /* tgumbsup.png */,
+				B717D7B612B7791800FDBD53 /* thumbsup.png */,
+				B717D5F812B72B6500FDBD53 /* folder.png */,
+				B710746F12B6F8E500B2AFF4 /* CalendarViewController.xib */,
+				B717D4A512B71D1E00FDBD53 /* default.png */,
+				B717D86112B7EEA300FDBD53 /* info_30.png */,
+				09FBBB2912B5C614008B597D /* tableBackground2.jpg */,
+				09FBBAF212B5AB42008B597D /* background.jpg */,
+				09FBBAF012B5AB09008B597D /* buttonPressed.png */,
+				0968C39E12B4C88200BF36CD /* About.jpg */,
+				0968C29212B49A5400BF36CD /* button2.png */,
+				0968C25712B4971A00BF36CD /* button.png */,
+				0968C14312B4811100BF36CD /* background3.jpg */,
+				0968BFE812B400D500BF36CD /* DueDatePickerView.xib */,
+				0924789212B1CBEE0074EAE2 /* courseBackground.jpg */,
+				0924783712B1A0D00074EAE2 /* CourseDetailViewController.xib */,
+				099DBCC312ADD72900C681D4 /* taskBackground.jpg */,
+				0996CD1112AAD232001EFB42 /* CheckGradesViewController.xib */,
+				0992A6EF12A8A0160043E1CC /* TaskViewController.xib */,
+				0992A6C612A8982E0043E1CC /* HomeworkViewController.xib */,
+				0992A55612A878EC0043E1CC /* PickDateViewController.xib */,
+				0992A3D912A8488A0043E1CC /* AddCourseViewController.xib */,
+				2819305F112F816700ECF9B4 /* FinalProject.xcdatamodeld */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				B717D85C12B7EC6000FDBD53 /* cal_tabicon.png */,
+				0992A2ED12A833E50043E1CC /* courseTableViewController.xib */,
+				8D1107310486CEB800E47090 /* SchoolHelperApp-Info.plist */,
+				0992A2A012A82E2E0043E1CC /* AboutViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEE4D74A184C0A34009B388C /* Screen Shot 2013-12-01 at 7.21.36 PM.png */,
+				B71073D812B6F72400B2AFF4 /* TapkuLibrary.xcodeproj */,
+				B71073E912B6F74800B2AFF4 /* QuartzCore.framework */,
+				B71073ED12B6F75300B2AFF4 /* MapKit.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				28D801B30F44B63D00FB423F /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B71073DE12B6F72500B2AFF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE916A8617ADED9E00360413 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				DE916A8717ADED9E00360413 /* DataTests.h */,
+				DE916A8817ADED9E00360413 /* DataTests.m */,
+				DE916A8917ADED9E00360413 /* LogicTests-Info.plist */,
+				DE916A8A17ADED9E00360413 /* TapkuLibrary */,
+				DE916AF617ADED9E00360413 /* TapkuLibrary.bundle */,
+				DE916AF717ADED9E00360413 /* TapkuLibrary.xcodeproj */,
+				DE916AFA17ADED9E00360413 /* TapkuLibrary_Prefix.pch */,
+				DE916AFB17ADED9E00360413 /* Tests */,
+			);
+			name = src;
+			path = "../../../Downloads/tapkulibrary-master/src";
+			sourceTree = "<group>";
+		};
+		DE916A8A17ADED9E00360413 /* TapkuLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				DE916A8B17ADED9E00360413 /* NSArray+TKCategory.h */,
+				DE916A8C17ADED9E00360413 /* NSArray+TKCategory.m */,
+				DE916A8D17ADED9E00360413 /* NSDate+CalendarGrid.h */,
+				DE916A8E17ADED9E00360413 /* NSDate+CalendarGrid.m */,
+				DE916A8F17ADED9E00360413 /* NSDate+TKCategory.h */,
+				DE916A9017ADED9E00360413 /* NSDate+TKCategory.m */,
+				DE916A9117ADED9E00360413 /* NSMutableArray+TKCategory.h */,
+				DE916A9217ADED9E00360413 /* NSMutableArray+TKCategory.m */,
+				DE916A9317ADED9E00360413 /* NSObject+TKCategory.h */,
+				DE916A9417ADED9E00360413 /* NSObject+TKCategory.m */,
+				DE916A9517ADED9E00360413 /* NSString+TKCategory.h */,
+				DE916A9617ADED9E00360413 /* NSString+TKCategory.m */,
+				DE916A9717ADED9E00360413 /* TapkuLibrary.h */,
+				DE916A9817ADED9E00360413 /* TKAlertCenter.h */,
+				DE916A9917ADED9E00360413 /* TKAlertCenter.m */,
+				DE916A9A17ADED9E00360413 /* TKAppDelegate.h */,
+				DE916A9B17ADED9E00360413 /* TKAppDelegate.m */,
+				DE916A9C17ADED9E00360413 /* TKButtonCell.h */,
+				DE916A9D17ADED9E00360413 /* TKButtonCell.m */,
+				DE916A9E17ADED9E00360413 /* TKCalendarDayEventView.h */,
+				DE916A9F17ADED9E00360413 /* TKCalendarDayEventView.m */,
+				DE916AA017ADED9E00360413 /* TKCalendarDayView.h */,
+				DE916AA117ADED9E00360413 /* TKCalendarDayView.m */,
+				DE916AA217ADED9E00360413 /* TKCalendarDayViewController.h */,
+				DE916AA317ADED9E00360413 /* TKCalendarDayViewController.m */,
+				DE916AA417ADED9E00360413 /* TKCalendarMonthTableViewController.h */,
+				DE916AA517ADED9E00360413 /* TKCalendarMonthTableViewController.m */,
+				DE916AA617ADED9E00360413 /* TKCalendarMonthView.h */,
+				DE916AA717ADED9E00360413 /* TKCalendarMonthView.m */,
+				DE916AA817ADED9E00360413 /* TKCalendarMonthViewController.h */,
+				DE916AA917ADED9E00360413 /* TKCalendarMonthViewController.m */,
+				DE916AAA17ADED9E00360413 /* TKCoverflowView.h */,
+				DE916AAB17ADED9E00360413 /* TKCoverflowView.m */,
+				DE916AAC17ADED9E00360413 /* TKEmptyView.h */,
+				DE916AAD17ADED9E00360413 /* TKEmptyView.m */,
+				DE916AAE17ADED9E00360413 /* TKGlobal.h */,
+				DE916AAF17ADED9E00360413 /* TKGlobal.m */,
+				DE916AB017ADED9E00360413 /* TKGradientView.h */,
+				DE916AB117ADED9E00360413 /* TKGradientView.m */,
+				DE916AB217ADED9E00360413 /* TKHTTPRequest.h */,
+				DE916AB317ADED9E00360413 /* TKHTTPRequest.m */,
+				DE916AB417ADED9E00360413 /* TKImageCache.h */,
+				DE916AB517ADED9E00360413 /* TKImageCache.m */,
+				DE916AB617ADED9E00360413 /* TKLabelCell.h */,
+				DE916AB717ADED9E00360413 /* TKLabelCell.m */,
+				DE916AB817ADED9E00360413 /* TKLabelFieldCell.h */,
+				DE916AB917ADED9E00360413 /* TKLabelFieldCell.m */,
+				DE916ABA17ADED9E00360413 /* TKLabelSwitchCell.h */,
+				DE916ABB17ADED9E00360413 /* TKLabelSwitchCell.m */,
+				DE916ABC17ADED9E00360413 /* TKLabelTextFieldCell.h */,
+				DE916ABD17ADED9E00360413 /* TKLabelTextFieldCell.m */,
+				DE916ABE17ADED9E00360413 /* TKLabelTextViewCell.h */,
+				DE916ABF17ADED9E00360413 /* TKLabelTextViewCell.m */,
+				DE916AC017ADED9E00360413 /* TKLoadingView.h */,
+				DE916AC117ADED9E00360413 /* TKLoadingView.m */,
+				DE916AC217ADED9E00360413 /* TKNetworkQueue.h */,
+				DE916AC317ADED9E00360413 /* TKNetworkQueue.m */,
+				DE916AC417ADED9E00360413 /* TKProgressAlertView.h */,
+				DE916AC517ADED9E00360413 /* TKProgressAlertView.m */,
+				DE916AC617ADED9E00360413 /* TKProgressBarView.h */,
+				DE916AC717ADED9E00360413 /* TKProgressBarView.m */,
+				DE916AC817ADED9E00360413 /* TKProgressCircleView.h */,
+				DE916AC917ADED9E00360413 /* TKProgressCircleView.m */,
+				DE916ACA17ADED9E00360413 /* TKReorderTableView.h */,
+				DE916ACB17ADED9E00360413 /* TKReorderTableView.m */,
+				DE916ACC17ADED9E00360413 /* TKShapeView.h */,
+				DE916ACD17ADED9E00360413 /* TKShapeView.m */,
+				DE916ACE17ADED9E00360413 /* TKSlideToUnlockView.h */,
+				DE916ACF17ADED9E00360413 /* TKSlideToUnlockView.m */,
+				DE916AD017ADED9E00360413 /* TKSwitchCell.h */,
+				DE916AD117ADED9E00360413 /* TKSwitchCell.m */,
+				DE916AD217ADED9E00360413 /* TKTableViewCell.h */,
+				DE916AD317ADED9E00360413 /* TKTableViewCell.m */,
+				DE916AD417ADED9E00360413 /* TKTableViewController.h */,
+				DE916AD517ADED9E00360413 /* TKTableViewController.m */,
+				DE916AD617ADED9E00360413 /* TKTextFieldCell.h */,
+				DE916AD717ADED9E00360413 /* TKTextFieldCell.m */,
+				DE916AD817ADED9E00360413 /* TKTextView.h */,
+				DE916AD917ADED9E00360413 /* TKTextView.m */,
+				DE916ADA17ADED9E00360413 /* TKTextViewCell.h */,
+				DE916ADB17ADED9E00360413 /* TKTextViewCell.m */,
+				DE916ADC17ADED9E00360413 /* TKViewController.h */,
+				DE916ADD17ADED9E00360413 /* TKViewController.m */,
+				DE916ADE17ADED9E00360413 /* TKWebViewController.h */,
+				DE916ADF17ADED9E00360413 /* TKWebViewController.m */,
+				DE916AE017ADED9E00360413 /* TKWindow.h */,
+				DE916AE117ADED9E00360413 /* TKWindow.m */,
+				DE916AE217ADED9E00360413 /* UIBarButtonItem+TKCategory.h */,
+				DE916AE317ADED9E00360413 /* UIBarButtonItem+TKCategory.m */,
+				DE916AE417ADED9E00360413 /* UIButton+TKCategory.h */,
+				DE916AE517ADED9E00360413 /* UIButton+TKCategory.m */,
+				DE916AE617ADED9E00360413 /* UIColor+TKCategory.h */,
+				DE916AE717ADED9E00360413 /* UIColor+TKCategory.m */,
+				DE916AE817ADED9E00360413 /* UIGestureRecognizer+TKCategory.h */,
+				DE916AE917ADED9E00360413 /* UIGestureRecognizer+TKCategory.m */,
+				DE916AEA17ADED9E00360413 /* UIImage+TKCategory.h */,
+				DE916AEB17ADED9E00360413 /* UIImage+TKCategory.m */,
+				DE916AEC17ADED9E00360413 /* UIImagePickerController+TKCategory.h */,
+				DE916AED17ADED9E00360413 /* UIImagePickerController+TKCategory.m */,
+				DE916AEE17ADED9E00360413 /* UIImageView+TKCategory.h */,
+				DE916AEF17ADED9E00360413 /* UIImageView+TKCategory.m */,
+				DE916AF017ADED9E00360413 /* UIScrollview+TKCategory.h */,
+				DE916AF117ADED9E00360413 /* UIScrollview+TKCategory.m */,
+				DE916AF217ADED9E00360413 /* UITextField+TKCategory.h */,
+				DE916AF317ADED9E00360413 /* UITextField+TKCategory.m */,
+				DE916AF417ADED9E00360413 /* UIView+TKCategory.h */,
+				DE916AF517ADED9E00360413 /* UIView+TKCategory.m */,
+			);
+			path = TapkuLibrary;
+			sourceTree = "<group>";
+		};
+		DE916AF817ADED9E00360413 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE916B0717ADED9E00360413 /* libTapkuLibrary.a */,
+				DE916B0917ADED9E00360413 /* LogicTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE916AFB17ADED9E00360413 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DE916AFC17ADED9E00360413 /* FoundationTests.h */,
+				DE916AFD17ADED9E00360413 /* FoundationTests.m */,
+				DE916AFE17ADED9E00360413 /* NSArrayTests.h */,
+				DE916AFF17ADED9E00360413 /* NSArrayTests.m */,
+				DE916B0017ADED9E00360413 /* NSStringTests.h */,
+				DE916B0117ADED9E00360413 /* NSStringTests.m */,
+				DE916B0217ADED9E00360413 /* UIViewTests.h */,
+				DE916B0317ADED9E00360413 /* UIViewTests.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		DEE4D73D184C0719009B388C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEE4D743184C071A009B388C /* libTapkuLibrary.a */,
+				DEE4D745184C071A009B388C /* LogicTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* SchoolHelperApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SchoolHelperApp" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEE4D747184C0799009B388C /* PBXTargetDependency */,
+			);
+			name = SchoolHelperApp;
+			productName = FinalProject;
+			productReference = 1D6058910D05DD3D006BFB54 /* SchoolHelperApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SchoolHelperApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DE916AF817ADED9E00360413 /* Products */;
+					ProjectRef = DE916AF717ADED9E00360413 /* TapkuLibrary.xcodeproj */;
+				},
+				{
+					ProductGroup = DEE4D73D184C0719009B388C /* Products */;
+					ProjectRef = DEE4D73C184C0719009B388C /* TapkuLibrary.xcodeproj */;
+				},
+				{
+					ProductGroup = B71073DE12B6F72500B2AFF4 /* Products */;
+					ProjectRef = B71073D812B6F72400B2AFF4 /* TapkuLibrary.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* SchoolHelperApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DE916B0717ADED9E00360413 /* libTapkuLibrary.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTapkuLibrary.a;
+			remoteRef = DE916B0617ADED9E00360413 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DE916B0917ADED9E00360413 /* LogicTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LogicTests.octest;
+			remoteRef = DE916B0817ADED9E00360413 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DEE4D743184C071A009B388C /* libTapkuLibrary.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTapkuLibrary.a;
+			remoteRef = DEE4D742184C071A009B388C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DEE4D745184C071A009B388C /* LogicTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LogicTests.octest;
+			remoteRef = DEE4D744184C071A009B388C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				0992A2A212A82E2E0043E1CC /* AboutViewController.xib in Resources */,
+				0992A2EE12A833E50043E1CC /* courseTableViewController.xib in Resources */,
+				0992A3DB12A8488A0043E1CC /* AddCourseViewController.xib in Resources */,
+				0992A55812A878EC0043E1CC /* PickDateViewController.xib in Resources */,
+				0992A6C812A8982E0043E1CC /* HomeworkViewController.xib in Resources */,
+				0992A6F112A8A0160043E1CC /* TaskViewController.xib in Resources */,
+				0996CD1312AAD232001EFB42 /* CheckGradesViewController.xib in Resources */,
+				099DBCC412ADD72900C681D4 /* taskBackground.jpg in Resources */,
+				0924783912B1A0D00074EAE2 /* CourseDetailViewController.xib in Resources */,
+				0924789312B1CBEE0074EAE2 /* courseBackground.jpg in Resources */,
+				0968BFEA12B400D500BF36CD /* DueDatePickerView.xib in Resources */,
+				0968C14412B4811100BF36CD /* background3.jpg in Resources */,
+				0968C25812B4971A00BF36CD /* button.png in Resources */,
+				0968C29312B49A5400BF36CD /* button2.png in Resources */,
+				0968C39F12B4C88200BF36CD /* About.jpg in Resources */,
+				09FBBAE412B5A87E008B597D /* buttonPress2.png in Resources */,
+				09FBBAF112B5AB09008B597D /* buttonPressed.png in Resources */,
+				09FBBAF312B5AB42008B597D /* background.jpg in Resources */,
+				09FBBB2A12B5C614008B597D /* tableBackground2.jpg in Resources */,
+				B710747112B6F8E500B2AFF4 /* CalendarViewController.xib in Resources */,
+				DEE4D73F184C071A009B388C /* TapkuLibrary.bundle in Resources */,
+				B717D4A612B71D1E00FDBD53 /* default.png in Resources */,
+				B717D5F912B72B6500FDBD53 /* folder.png in Resources */,
+				B717D7B012B777D300FDBD53 /* tgumbsup.png in Resources */,
+				B717D7B712B7791800FDBD53 /* thumbsup.png in Resources */,
+				B717D85D12B7EC6000FDBD53 /* cal_tabicon.png in Resources */,
+				B717D86312B7EEA300FDBD53 /* info_30.png in Resources */,
+				B717D95C12B7EF9200FDBD53 /* 33-cabinet.png in Resources */,
+				B717D95D12B7EF9200FDBD53 /* 83-calendar.png in Resources */,
+				B717D95E12B7EF9200FDBD53 /* 161-calculator.png in Resources */,
+				B717DA6912B8346A00FDBD53 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* FinalProjectAppDelegate.m in Sources */,
+				28193060112F816700ECF9B4 /* FinalProject.xcdatamodeld in Sources */,
+				0992A2A112A82E2E0043E1CC /* AboutViewController.m in Sources */,
+				0992A2BB12A82FF90043E1CC /* courseNavController.m in Sources */,
+				0992A3DA12A8488A0043E1CC /* AddCourseViewController.m in Sources */,
+				0992A55712A878EC0043E1CC /* PickDateViewController.m in Sources */,
+				0992A6C712A8982E0043E1CC /* HomeworkViewController.m in Sources */,
+				0992A6F012A8A0160043E1CC /* TaskViewController.m in Sources */,
+				0996CD1212AAD232001EFB42 /* CheckGradesViewController.m in Sources */,
+				0968BFE912B400D500BF36CD /* DueDatePickerView.m in Sources */,
+				B710747012B6F8E500B2AFF4 /* CalendarViewController.m in Sources */,
+				B717D4BE12B7205700FDBD53 /* Task.m in Sources */,
+				B717D4D212B7219000FDBD53 /* Course.m in Sources */,
+				B717D4F912B722DD00FDBD53 /* courseTableViewController.m in Sources */,
+				B717D64512B7527B00FDBD53 /* LabelViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEE4D747184C0799009B388C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TapkuLibrary;
+			targetProxy = DEE4D746184C0799009B388C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SchoolHelperApp_Prefix.pch;
+				HEADER_SEARCH_PATHS = /Users/tejawork/Documents/491Final/tapkulibrary;
+				"HEADER_SEARCH_PATHS[arch=*]" = /Users/tejawork/Documents/491Final/tapkulibrary/src;
+				INFOPLIST_FILE = "SchoolHelperApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				New_Setting = "";
+				PRODUCT_NAME = SchoolHelperApp;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SchoolHelperApp_Prefix.pch;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "SchoolHelperApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				New_Setting = "";
+				PRODUCT_NAME = SchoolHelperApp;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /Users/Teja/Desktop/FinalProject/src;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SchoolHelperApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SchoolHelperApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2819305F112F816700ECF9B4 /* FinalProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				28C3AD890F43EF2300507BA6 /* FinalProject.xcdatamodel */,
+			);
+			currentVersion = 28C3AD890F43EF2300507BA6 /* FinalProject.xcdatamodel */;
+			path = FinalProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
